@@ -1,0 +1,12 @@
+/vendor
+/node_modules
+public/.htaccess
+app/Providers/AppServiceProvider.php
+/public/storage
+/public/blog
+/public/uploads
+/public/assets/videos
+/public/assets/vendor
+Homestead.yaml
+Homestead.json
+.env
