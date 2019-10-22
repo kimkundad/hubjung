@@ -192,29 +192,6 @@ footer-menu {
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
 
 
-      <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
-      <script>
-        var OneSignal = window.OneSignal || [];
-        OneSignal.push(["init", {
-          appId: "ffd631de-5f47-4069-9a7a-b49087ea0341",
-          autoRegister: true, /* Set to true to automatically prompt visitors */
-          httpPermissionRequest: {
-            enable: true
-          },
-          notifyButton: {
-              enable: true /* Set to false to hide */
-          }
-        }]);
-        OneSignal.push(function() {
-      OneSignal.getUserId(function(userId) {
-        console.log("OneSignal User ID:", userId);
-
-        // (Output) OneSignal User ID: 270a35cd-4dda-4b3f-b04e-41d7463a2316
-      });
-    });
-
-
-      </script>
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146201425-1"></script>
