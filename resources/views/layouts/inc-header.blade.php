@@ -160,8 +160,13 @@
                             </nav><!-- end main-menu -->
                             <div class="logo-right-button" style="width: 250px;">
                               <div class="d-none d-sm-block">
+                                @if (Auth::guest())
                                 <a href="{{url('login')}}" class="theme-btn  " style="margin-right:10px; padding: 0 20px 0 20px;">เข้าสู่ระบบ</a>
                                 <a href="{{url('register')}}" class="theme-btn  sign-btn btn__google" style="padding: 0 20px 0 20px;">ลงทะเบียน</a>
+                                @else
+                                <img class="avatar__img " alt="" src="home/images/team8.jpg">
+
+                                @endif
                               </div>
 
 

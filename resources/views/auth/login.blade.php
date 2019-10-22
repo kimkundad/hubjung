@@ -77,7 +77,7 @@
                                 <div class="custom-checkbox">
                                     <input type="checkbox" id="chb1">
                                     <label for="chb1">Remember Me</label>
-                                    <a href="{{url('password/reset')}}" class="pass__desc"> Forgot my password?</a>
+                                    <a href="{{url('password/reset')}}" class="pass__desc"> Forgot my password?.</a>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-sm-12 col-xs-12 form-group">

@@ -153,7 +153,7 @@
             </div><!-- end col-lg-3 -->
         </div><!-- end row -->
         <div class="row category-wrapper">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="category-item">
                     <img src="{{url('home/images/img1.jpg')}}" alt="">
                     <div class="category-content">
@@ -163,7 +163,7 @@
                     </div><!-- end category-content -->
                 </div><!-- end category-item -->
             </div><!-- end col-lg-4 -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="category-item">
                     <img src="{{url('home/images/img2.jpg')}}" alt="">
                     <div class="category-content">
@@ -173,7 +173,7 @@
                     </div><!-- end category-content -->
                 </div><!-- end category-item -->
             </div><!-- end col-lg-4 -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="category-item">
                     <img src="{{url('home/images/img3.jpg')}}" alt="">
                     <div class="category-content">
@@ -183,7 +183,7 @@
                     </div><!-- end category-content -->
                 </div><!-- end category-item -->
             </div><!-- end col-lg-4 -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="category-item">
                     <img src="{{url('home/images/img4.jpg')}}" alt="">
                     <div class="category-content">
@@ -193,7 +193,7 @@
                     </div><!-- end category-content -->
                 </div><!-- end category-item -->
             </div><!-- end col-lg-4 -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="category-item">
                     <img src="{{url('home/images/img5.jpg')}}" alt="">
                     <div class="category-content">
@@ -203,7 +203,27 @@
                     </div><!-- end category-content -->
                 </div><!-- end category-item -->
             </div><!-- end col-lg-4 -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
+                <div class="category-item">
+                    <img src="{{url('home/images/img6.jpg')}}" alt="">
+                    <div class="category-content">
+                        <h3 class="cat__title">math</h3>
+                        <p class="cat__meta">8 courses</p>
+                        <a href="#" class="cat__link">explore now</a>
+                    </div><!-- end category-content -->
+                </div><!-- end category-item -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-3">
+                <div class="category-item">
+                    <img src="{{url('home/images/img5.jpg')}}" alt="">
+                    <div class="category-content">
+                        <h3 class="cat__title">photography</h3>
+                        <p class="cat__meta">7 courses</p>
+                        <a href="#" class="cat__link">explore now</a>
+                    </div><!-- end category-content -->
+                </div><!-- end category-item -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-3">
                 <div class="category-item">
                     <img src="{{url('home/images/img6.jpg')}}" alt="">
                     <div class="category-content">

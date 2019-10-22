@@ -28,4 +28,13 @@
     width: 350px;
     margin-right: 0px;
 }
+.avatar__img {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
 </style>
