@@ -98,10 +98,12 @@ Route::get('/live', function () {
 
 Route::auth();
 
-Route::group(['middleware' => 'web'], function() {
+
 Route::post('login', function()
 {
     $credentials = Input::only('email', 'password');
+
+  //  dd($credentials);
 
     if ( ! Auth::attempt($credentials))
     {
@@ -125,7 +127,7 @@ Route::post('login', function()
     return Redirect::to('/');
 });
 
-});
+
 
 Route::get('/home', 'HomeController@index');
 
