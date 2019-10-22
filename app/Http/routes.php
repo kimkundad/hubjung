@@ -99,36 +99,6 @@ Route::get('/live', function () {
 Route::auth();
 
 
-Route::post('login', function()
-{
-    $credentials = Input::only('email', 'password');
-
-  //  dd($credentials);
-
-    if ( ! Auth::attempt($credentials))
-    {
-        return Redirect::back()->withMessage('Invalid credentials');
-    }
-
-    if (Auth::user()->is_admin == 1)
-    {
-        return Redirect::to('/admin/dashboard');
-    }else{
-
-      if(Session::get('japanonline_redirect') == 1){
-        Session::put('japanonline_redirect', 0);
-        return redirect('/account');
-      }else{
-        return redirect('/');
-      }
-
-    }
-
-    return Redirect::to('/');
-});
-
-
-
 Route::get('/home', 'HomeController@index');
 
 Route::get('/email', function () {
